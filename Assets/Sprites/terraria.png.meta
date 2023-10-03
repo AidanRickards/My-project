@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 18acea318a711c94cb3be7ad5a0a3ba8
+guid: 8a00d49c3e4503e42af0981eb01b731a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4298345892085953899
-    second: sprite_0
+      213: 1638705625034182175
+    second: terraria_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -158,13 +158,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sprite_0
+      name: terraria_0
       rect:
         serializedVersion: 2
-        x: 332
-        y: 258
-        width: 446
-        height: 631
+        x: 952
+        y: 210
+        width: 2298
+        height: 713
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,8 +172,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 59a057c4f253954c0800000000000000
-      internalID: -4298345892085953899
+      spriteID: f1ec89f651addb610800000000000000
+      internalID: 1638705625034182175
       vertices: []
       indices: 
       edges: []
@@ -188,8 +188,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      sprite_0: -4298345892085953899
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

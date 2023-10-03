@@ -188,7 +188,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      today's sponsor_0: 6753166754205227164
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

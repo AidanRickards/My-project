@@ -1,10 +1,25 @@
 fileFormatVersion: 2
-guid: 18acea318a711c94cb3be7ad5a0a3ba8
+guid: 15d1987c7fcd6bf40a2a425fae543292
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4298345892085953899
-    second: sprite_0
+      213: -5764624563681049867
+    second: coin spin_0
+  - first:
+      213: 8506721907482901958
+    second: coin spin_1
+  - first:
+      213: 4887717127189505905
+    second: coin spin_2
+  - first:
+      213: -4362817668005744411
+    second: coin spin_3
+  - first:
+      213: 4775433145567018912
+    second: coin spin_4
+  - first:
+      213: 6306207211914881570
+    second: coin spin_5
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -158,22 +173,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sprite_0
+      name: coin spin_0
       rect:
         serializedVersion: 2
-        x: 332
-        y: 258
-        width: 446
-        height: 631
+        x: 444
+        y: 587
+        width: 167
+        height: 167
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 59a057c4f253954c0800000000000000
-      internalID: -4298345892085953899
+      spriteID: 04156d96c87bcf74ea8afe81a844ace0
+      internalID: -143614272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coin spin_1
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 587
+        width: 128
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c0166a6bc206b4697917ca7a72ce38
+      internalID: -828141891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coin spin_2
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 587
+        width: 81
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648e2798704089f459f1c9df6bf33414
+      internalID: -125286954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coin spin_3
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 587
+        width: 41
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f317432901982fa4685e675409dfa7b5
+      internalID: -2128919715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coin spin_4
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 587
+        width: 80
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a81cd7fb47f12e341ae919e96a7cde74
+      internalID: -999687947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coin spin_5
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 587
+        width: 129
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae4a73df1733cc408eb107dbec37772
+      internalID: -1516934203
       vertices: []
       indices: 
       edges: []
@@ -181,7 +301,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 61c65472928bd70488bf3a0718164c0e
     internalID: 0
     vertices: []
     indices: 
@@ -189,7 +309,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      sprite_0: -4298345892085953899
+      coin spin_0: -143614272
+      coin spin_1: -828141891
+      coin spin_2: -125286954
+      coin spin_3: -2128919715
+      coin spin_4: -999687947
+      coin spin_5: -1516934203
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
