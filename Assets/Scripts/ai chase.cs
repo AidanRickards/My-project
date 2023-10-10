@@ -9,24 +9,24 @@ public class enemybehaviour : MonoBehaviour
 
     private float distance;
     SpriteRenderer sr;
-
+    HelperScript helper;
 
 
 
     // Start is called before the first frame update
     void Start()
     {
-        sr = GetComponent<SpriteRenderer>();
-        
+
+        helper = gameObject.AddComponent<HelperScript>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-        
-        
-        sr.flipX = true;
+
+
+
+        helper.FlipObject(true);
         distance = Vector2.Distance(transform.position, player.transform.position);
         Vector2 direction = player.transform.position - transform.position;
 
@@ -35,9 +35,11 @@ public class enemybehaviour : MonoBehaviour
         float dist = player.transform.position.x - transform.position.x;
         if( dist > 0 )
          {
-            sr.flipX = false;
-         }
-         
+            helper.FlipObject(false);
+        }
+
+  
+
 
 
     }
