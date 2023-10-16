@@ -41,7 +41,7 @@ public class test : MonoBehaviour
 
         Color hitColor = Color.white;
         bool onground = false;
-        float laserlength = 0.1f;
+        float laserlength = 0.005f;
         Vector3 rayOffset = new Vector3(0, -0.2f, 0);
         Vector3 rayOffset2 = new Vector3(-0.075f, -0.2f, 0);
         Vector3 rayOffset3 = new Vector3(0.075f, -0.2f, 0);
@@ -72,7 +72,7 @@ public class test : MonoBehaviour
 
         if ((Input.GetKey("w") == true) && (onground == true))
         {
-            rb.velocity = new Vector2(rb.velocity.x, 1);
+            rb.velocity = new Vector2(rb.velocity.x, 3);
             
         }
         
