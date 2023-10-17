@@ -2,6 +2,7 @@
 using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
@@ -9,15 +10,6 @@ using UnityEngine.UIElements;
 public class test : MonoBehaviour
 {
     Animator anim;
-    
-    
-
-
-
-
-
-
-
 
     // Start is called before the first frame update
     SpriteRenderer sr;
@@ -121,5 +113,18 @@ public class test : MonoBehaviour
         }
 
 
+    }
+    int playerHealth = 5;
+    private void OnTriggerEnter2D(Collider2D collider)
+    {
+        if (collider != null && collider.gameObject.tag == "Enemy")
+        {
+            playerHealth--;
+            print(playerHealth);
+            if (playerHealth <= 0)
+            {
+                Destroy(this.gameObject);
+            }
+        }
     }
 }

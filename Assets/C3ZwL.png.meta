@@ -380,7 +380,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      C3ZwL_0: 7440293823407388486
+      C3ZwL_1: -5743151447323106175
+      C3ZwL_2: -6295573539285084020
+      C3ZwL_3: 2586002713581435285
+      C3ZwL_4: -6747881986806009452
+      C3ZwL_5: -2843706859509508898
+      C3ZwL_6: -7960101213660627483
+      C3ZwL_7: 6349273189101425374
+      C3ZwL_8: 4548518880546917898
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
